@@ -1,1 +1,35 @@
-We do not have a source code.
+<!DOCTYPE html>
+<!--Login Page-->
+<html lang="en">
+
+<head>
+  <title>Login Page</title>
+  <meta charset="utf-8">
+  <!--Meta tag that allows for browser to control web page dimension and properly scale the viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+  <div id="content">
+    <!--Email and password input fields for user to sign in-->
+    <div id="login-container">
+      <form>
+        <div class="login-input-container">
+          <label class="label" for="email">Email Address</label>
+          <input id="email" name="email" type="text" placeholder="Email Address">
+        </div>
+        <div class="login-input-container">
+          <label class="label" for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="Password">
+        </div>
+        <button id="login-submit-button" type="button" value="submit">Sign In</button>
+      </form>
+      <p id="login-error-message">Login Error Message</p>
+      <p>Don't have an account? Become our Ally. <span>Sign up!</span></p>
+    </div>
+  </div>
+  <script src="js/login-client.js"></script>
+</body>
+
+</html>
